@@ -49,7 +49,7 @@ def main():
     convert_grades_to_float(table, grade_columns)
     calculate_final_average(table, grade_columns)
     student_situation(table, approved, naf)
-    failed_attendance(table, missed_classes_limit)  # Ajuste conforme a correção
+    failed_attendance(table, missed_classes_limit)
     final_exam_calc(table, approved)
 
     # exibição do DataFrame final
